@@ -43,7 +43,7 @@ const Kalkulator = () => {
 
   const calculate = () => {
     if (input === "1+1") {
-      setResult("I love you"); // Khusus untuk "1+1"
+      setResult("Halo sayangku meli hari ini cape banget ya, semangat terus ya cantiknya akuu, I LOVE YOU ");
     } else {
       const calculatedResult = parseInput(input);
       setResult(calculatedResult);
@@ -60,22 +60,22 @@ const Kalkulator = () => {
       <div className={styles.display}>
         <input type="text" value={input} readOnly />
         <h1>HASIL YANG KAMU CARI ADALAH</h1>
-        <h2>{result}</h2>
+        <h3>{result}</h3>
       </div>
       <div className={styles.buttons}>
         {["1", "2", "3", "+"].map((val) => (
           <button key={val} onClick={() => handleClick(val)}>{val}</button>
         ))}
-        {["-", "4", "5", "6","*"].map((val) => (
+        {["4", "5", "6", "-"].map((val) => (
             <button key={val} onClick={() => handleClick(val)}>{val}</button>
         ))}
-            <button onClick={() => handleClick("/")}>/</button>
-        {["7","8","9"].map((val) => (
+        {["7","8","9","*"].map((val) => (
             <button key={val} onClick={() => handleClick(val)}>{val}</button>
         ))}
         <button onClick={calculate}>=</button>
-        <button onClick={clearInput}>C</button>
         <button onClick={() => handleClick("0")}>0</button>
+        <button onClick={clearInput}>C</button>
+        <button onClick={() => handleClick("/")}>/</button>
       </div>
     </div>
   );

@@ -7,7 +7,6 @@
   gap: 10px;
   height: 100vh;
 }
-
 .header {
   grid-area: header;
   background-color: #33333300;
@@ -15,20 +14,14 @@
   padding: 10px;
   text-align: center;
 }
-
-
-
 .main {
   grid-area: main;
   background-color: #ffffff00;
   padding: 20px;
 }
-
-/* Styling untuk kalkulator */
 .main h2 {
   margin-bottom: 10px;
 }
-
 @media (max-width: 768px) {
   .dashboard {
     grid-template-areas:
@@ -37,9 +30,6 @@
       "sidebar";
     grid-template-columns: 1fr;
   }
-
- 
-
   .main {
     order: 1;
   }
@@ -52,11 +42,11 @@
   background-color: #ff00f2;
   text-align: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .display {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .display input {
@@ -78,7 +68,12 @@
   background-color: #e203bd;
   color: #000000;
 }
-
+.display h3 {
+  font-size: 24px;
+  font-family: fantasy;
+  background-color: #e203bd;
+  color: #000000;
+}
 .buttons button {
   width: 60px;
   height: 60px;

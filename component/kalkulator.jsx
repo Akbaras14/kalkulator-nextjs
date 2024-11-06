@@ -44,12 +44,24 @@ const Kalkulator = () => {
   const calculate = () => {
     if (input === "1+1") {
       setResult("Halo sayangku meli hari ini cape banget ya, semangat terus ya cantiknya akuu, I LOVE YOU ");
-    } else {
+    } 
+    else if (input === "1+2") {
+      setResult("wanita hebatku yang selalu memendam lelahnya sendiri yang selalu memendam sakitnya sendiri, kamu wanita hebat yang aku kenal wanita kuat yang selalu aku banggakan dan selalu aku cintai");
+    }
+    else if (input === "1+3") {
+        setResult("aku minta maaf jika aku selalu menyakitimu selalu membuatmu merasa kesepian tapi jangan berfikir aku tidak sayang kamu, aku disini sedang berusaha keras berjuang untuk menjadi yang kamu mau");
+      }
+      else if (input === "1+4") {
+        setResult("doakan aku semoga keiinginan kita dapat terwujud");
+      }
+      else if (input === "1+5") {
+        setResult("sayangku meli I LOVE YOU");
+      }
+    else {
       const calculatedResult = parseInput(input);
       setResult(calculatedResult);
     }
   };
-
   const clearInput = () => {
     setInput("");
     setResult(0);
@@ -77,6 +89,15 @@ const Kalkulator = () => {
         <button onClick={clearInput}>C</button>
         <button onClick={() => handleClick("/")}>/</button>
       </div>
+      {/* Tombol WhatsApp */}
+      <a
+        href="https://wa.me/6285893802972?text=Halo%20sayang%20aku%20suka%20banget%20makasih%20ayang"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.whatsappButton}
+      >
+        Hubungi jika kalkulator ini mengalami gangguan
+      </a>
     </div>
   );
 };

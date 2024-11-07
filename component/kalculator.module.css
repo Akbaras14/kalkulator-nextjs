@@ -46,7 +46,7 @@
   padding: 20px;
   border: 2px solid #333;
   border-radius: 8px;
-  background-color: #ff00f2;
+  background-color: #ff0000;
   text-align: center;
   width: 100%;
   max-width: 300px;
@@ -67,18 +67,18 @@
 
 .display h1 {
   font-size: 15px;
-  background-color: #e203bd;
+  background-color: #e20303;
   color: #000000;
 }
 .display h2 {
   font-size: 30px;
-  background-color: #e203bd;
+  background-color: #e20303;
   color: #000000;
 }
 .display h3 {
   font-size: 19px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #e203bd;
+  background-color: #e20303;
   color: #000000;
   text-align: center;
   text-overflow: clip;
@@ -89,13 +89,13 @@
   font-size: 20px;
   margin: 5px;
   cursor: pointer;
-  background-color: #b80299;
+  background-color: #b80202;
   border: none;
   border-radius: 4px;
 }
 
 .buttons button:hover {
-  background-color: #db02b7;
+  background-color: #db0202;
 }
 
 @media (max-width: 768px) {
@@ -105,7 +105,7 @@
   font-size: 30px;
   margin: 4px;
   cursor: pointer;
-  background-color: #b80299;
+  background-color: #b80202;
   border: none;
   border-radius: 4px;
   -webkit-border-radius: 4px;

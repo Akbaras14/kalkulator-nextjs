@@ -43,19 +43,19 @@ const Kalkulator = () => {
 
   const calculate = () => {
     if (input === "1+1") {
-      setResult("Halo sayangku meli hari ini cape banget ya, semangat terus ya cantiknya akuu, I LOVE YOU ");
+      setResult("tolol bet tolol 1+1 aja ngga tau ya 2 lah");
     } 
     else if (input === "1+2") {
-      setResult("wanita hebatku yang selalu memendam lelahnya sendiri yang selalu memendam sakitnya sendiri, kamu wanita hebat yang aku kenal wanita kuat yang selalu aku banggakan dan selalu aku cintai");
+      setResult("bener lu harus dirukyah 1+2 ya 3 lah cok");
     }
     else if (input === "1+3") {
-        setResult("aku minta maaf jika aku selalu menyakitimu selalu membuatmu merasa kesepian tapi jangan berfikir aku tidak sayang kamu, aku disini sedang berusaha keras berjuang untuk menjadi yang kamu mau");
+        setResult("ampun dah 1+3 ngga tau ya 4 lah cok");
       }
       else if (input === "1+4") {
-        setResult("doakan aku semoga keiinginan kita dapat terwujud");
+        setResult("5 dongo heran gua gitu aja ngga bisa");
       }
       else if (input === "1+5") {
-        setResult("sayangku meli I LOVE YOU");
+        setResult("6 cok dah lah capek");
       }
     else {
       const calculatedResult = parseInput(input);
@@ -91,7 +91,7 @@ const Kalkulator = () => {
       </div>
       {/* Tombol WhatsApp */}
       <a
-        href="https://wa.me/6285893802972?text=Halo%20sayang%20aku%20suka%20banget%20makasih%20ayang"
+        href="https://wa.me/6285893802972?text=Halo%20makasih%20sudah%20membuat%20kalkulator%20yang%20berguna%20"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.whatsappButton}

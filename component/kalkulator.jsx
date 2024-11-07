@@ -55,7 +55,7 @@ const Kalkulator = () => {
         setResult("5 dongo heran gua gitu aja ngga bisa");
       }
       else if (input === "1+5") {
-        setResult("6 cok dah lah capek");
+        setResult("6 cok dah lah capek cok");
       }
     else {
       const calculatedResult = parseInput(input);
